@@ -1,0 +1,72 @@
+/* Estiliza o corpo da página */
+body {
+    background-color: #679fe7; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    font-family: arial black; /* Define a fonte como Arial, com uma alternativa genérica */
+    font-size: 20px;                /* Define o tamanho da fonte */
+    }
+
+/* Estilizando o container */
+.container {
+    height: 800px;
+    width: 800px;  /* Define a largura da página como 800 pixels */
+    margin: 0 auto; /* Centraliza o container na página */
+    padding: 20px; /* Adiciona espaçamento interno */
+    
+}
+
+.rodape {
+    color: rgb(10, 10, 10);   /* Cor do texto */
+    text-align: center;     /* Centraliza o texto */
+    padding: 10px;         /* Adiciona espaçamento interno */
+    position: relative;     /* Se quiser usar position fixed ou absolute */
+    bottom: 0;              /* Fixa o rodapé na parte inferior se necessário */
+    width: 100%;            /* Faz o rodapé ocupar toda a largura */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior */
+    left: 0;        /* Alinha à esquerda */
+    bottom: 0;      /* Fixa na parte inferior */
+    height: 90px;
+    width: 100%;    /* Faz o rodapé ocupar toda a largura */
+    background-color: #333; /* Cor de fundo */
+    color: white;   /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px;  /* Adiciona espaçamento interno */
+}
+
+.menu-horizontal {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;           /* Remove o padding padrão */
+    margin: 0;            /* Remove a margem padrão */
+}
+
+.menu-horizontal li {
+    display: inline-block; /* Coloca os itens da lista na horizontal */
+    margin-right: 20px;   /* Adiciona espaçamento entre os itens */
+}
+
+.menu-horizontal a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #007BFF;       /* Cor do texto */
+    padding: 10px 15px;   /* Adiciona espaçamento interno */
+    background-color: #f0f0f0; /* Cor de fundo dos botões */
+    border-radius: 5px;   /* Canto arredondado */
+}
+
+
+    
+
+
+
+    
+
+    
